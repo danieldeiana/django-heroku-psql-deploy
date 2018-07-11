@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': config('DATABASE_URL),
+        'ENGINE': config('DATABASE_URL'),
         'NAME': 'djangtut',                      
         'USER': 'danielangelodeiana',
         'PASSWORD': '',
